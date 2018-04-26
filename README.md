@@ -21,4 +21,12 @@
 2. Cloud 9 IDE: Updated in line with wireframe for this project. Assets folder created and files saved into the folder. Additional list item added to navbar. List items renamed to align with this project.
 3. Each nav section updated with relevant HTML and styled with Bootstrap classes or CSS on `main.css`. Social Links CSS styling included within `index.html` `<style>`tag to override Bootstrap template.
 4. UAT: Final web design inspected via `Cloud 9 IDE`, `Run`. Resposive web design tested via `Chrome Dev Tools`, `Toggle Device Toolbar`.
-5. Final Project Backup: Pushed to `Github` repo via `CLI` terminal.
+5. Final Project Backup: Pushed to `GitHub` repo via `Linux` terminal.
+
+## Developer 'To Do' Notes
+
+* Current iteration = i1.
+* Subsequent iterations:
+    1. Add additional videos.
+    2. Add additional music tracks.
+    3. Add area over landing page photo for user to sign up to newsletter?
