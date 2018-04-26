@@ -30,4 +30,5 @@
 * Subsequent iterations:
     1. Add additional videos.
     2. Add additional music tracks.
-    3. Add area over landing page photo for user to sign up to newsletter?
+    3. Move from 'About' section 'For bookings please go the contact section' to Landing page.
+    4. Add area over landing page photo for user to sign up to newsletter?
