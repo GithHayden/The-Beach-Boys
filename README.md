@@ -22,7 +22,7 @@
 3. Each nav section updated with relevant HTML and styled with Bootstrap classes or CSS on `main.css`. Social Links CSS styling included within `index.html` `<style>`tag to override Bootstrap template.
 4. UAT: Final web design inspected via `Cloud 9 IDE`, `Run`. Resposive web design tested via `Chrome Dev Tools`, `Toggle Device Toolbar`.
 5. Final Project Backup: Pushed to `GitHub` repo via `Linux` terminal.
-6. Site Deployed via GitHub Pages: https://githhayden.github.io/The-Beach-Boys/
+6. Deployed via GitHub Pages: https://githhayden.github.io/The-Beach-Boys/
 
 ## Developer 'To Do' Notes
 
