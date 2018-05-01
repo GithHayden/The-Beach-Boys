@@ -33,7 +33,19 @@ thus, lost all staged commits.
 
 * Current iteration = i2.
 * Subsequent iterations:
-    1. Add additional videos.
-    2. Add additional music tracks.
+    1. Videos - add additional videos.
+    2. Music - rename to Audio and add additional tracks.
     3. Convert 'For bookings please go the contact section' into a hyperlink.
-    4. Add call to action on landing page.
+    4. Add a "call to action" button or any other text around the bottom of the page, to help the user understand what they should do next.
+    5. Move social buttons inside footer.
+    6. Readme - add short description of the project in general, before diving into the specific sections. Explain who the target audience and what the site aims to provide them with.
+    7. Gulp file - describe in the readme's deployment section and explaining how it works.
+    8. CSS (Seperation of Concerns) - Move inside .css file rather than inside HTML.
+    9. HTML - remove p tags as not required.
+    10. Across all of the code files, particularly in the css, add more comments explaining the purpose of each section and the overall structure.
+    11. Ampersand (&) is a special character in HTML used to add special entities to the text, whenever want to include it as is, use the sequence "&amp;".
+    12. Testing - add testing section to readme.
+        a) Describe the process by which you made sure that the functionality all works as intended. 
+        b) Structure around the list of scenarios - e.g. I clicked on the Videos link in the navbar, then clicked play to verify that the video plays correctly and clicked download to verify that I could download it to my computer.
+        c) Describe any interesting bugs and how you addressed them, and whether there were any issues that you didn't/couldn't fix.
+    13. Be specific about the template used - what I took from it and what code I wrote. Provide full credit. Check for copyright notices on top of the css and all files and add.
