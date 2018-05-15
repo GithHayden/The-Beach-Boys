@@ -33,7 +33,8 @@ thus, lost all staged commits.
 
 * Current iteration = i2.
 * Subsequent iterations:
-    1. Videos - add additional videos.
+    1. Run code through validator/s.
+    2. Videos - add additional videos.
     2. Music - rename to Audio and add additional tracks.
     3. Convert 'For bookings please go the contact section' into a hyperlink.
     4. Add a "call to action" button or any other text around the bottom of the page, to help the user understand what they should do next.
