@@ -27,7 +27,7 @@ NOTE: At end of project, re-pushed to a new GitHub repo to update project naming
 thus, lost all staged commits.
 ```
 6. Final Project Backup: Pushed to `GitHub` repo via `Linux` terminal.
-7. Deployed via GitHub Pages: https://githhayden.github.io/The-Beach-Boys/
+7. Deployed: [GitHub Pages](https://githhayden.github.io/The-Beach-Boys/).
 
 ### Developer 'To Do' Notes
 
