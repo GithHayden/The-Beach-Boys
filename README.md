@@ -1,17 +1,17 @@
-### Purpose
-* Landing Page: Photo of the band.
-* About: Brief description of the band.
-* Videos: Section to showcase videos and download tracks.
-* Music: Section to showcase music and download tracks.
-* Contact: Section for general contact and event bookings. Social links to follow the band.
+### 1960s Rock Band Website
+1. Landing Page: Photo of the band.
+2. About: Brief description of the band.
+3. Videos: Section to showcase videos and download tracks.
+4. Music: Section to showcase music and download tracks.
+5. Contact: Section for general contact and event bookings. Social links to follow the band.
 
 ### Functionalities and Technologies
-* Bootstrap: Nav scrolling bar [template](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav) including responsive web design.
-* Additional Bootstrap: `Font Awesome`link added into `index.html` `<head>` section for social icons.
-* Cloud 9 IDE: Used to build the project end to end.
-* HTML & CSS: Code added to build each section of project.
-* Chrome Dev Tools: Used for ongoing inspection of elements and to perform final UAT.
-* GitHub: Used for version control and backup of project.
+1. Bootstrap: Nav scrolling bar [template](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav) including responsive web design.
+2. Additional Bootstrap: `Font Awesome`link added into `index.html` `<head>` section for social icons.
+3. Cloud 9 IDE: Used to build the project end to end.
+4. HTML & CSS: Code added to build each section of project.
+5. Chrome Dev Tools: Used for ongoing inspection of elements and to perform final UAT.
+6. GitHub: Used for version control and backup of project.
 
 ### Deployment
 1. Bootstrap Template: Saved into `Cloud 9 IDE` workspace.
@@ -24,7 +24,7 @@ NOTE: At end of project, re-pushed to a new GitHub repo to update project naming
 thus, lost all staged commits.
 ```
 6. Final Project Backup: Pushed to `GitHub` repo via `Linux` terminal.
-7. Deployed via GitHub Pages: [The Beach Boys Website](https://githhayden.github.io/The-Beach-Boys/).
+7. Deployed via GitHub Pages: [1960s Rock Band Website](https://githhayden.github.io/The-Beach-Boys/).
 
 ### Developer To Do Notes
 1. Run code through validator/s.
