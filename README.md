@@ -23,7 +23,7 @@
 NOTE: At end of project, re-pushed to a new GitHub repo to update project naming conventions,
 thus, lost all staged commits.
 ```
-6. Final Project Backup: Pushed to `GitHub` repo via `Linux` terminal.
+6. Git and GitHub: Used for version control and to deploy backup up project.
 7. Deployed via GitHub Pages: [1960s Rock Band Website](https://githhayden.github.io/The-Beach-Boys/).
 
 ### Developer To Do Notes
