@@ -1,3 +1,5 @@
+/* Header photo styling */
+
 header {
   height: 90vh;
   background: url('../assets/beachBoys.jpg') no-repeat center center fixed;
@@ -5,13 +7,43 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   position: relative;
 }
+
+
+/* Header call to action syling */
+
+#call-to-action {
+  color:white;
+  margin-left:65px;
+  margin-right:65px;
+}
+
+#call-to-action-text {
+  font-size:60px;
+}
+
+#signup {
+  margin-bottom:25px;
+}
+
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--blue {
+    background-color: #0066ff;
+}
+
 
 @media (min-width: 992px) {
   header {
@@ -19,12 +51,28 @@ header {
   }
 }
 
+
 section {
   padding: 150px 0px 150px 0px;
 }
 
+/* Styling for space between form input fields */
 
-/*Social Links Styling */
+#fullname {
+  margin-bottom:15px;
+}
+
+#emailaddress {
+  margin-bottom:15px;
+}
+
+/* Styling for footer spacing between social links and copyright text */
+
+#footer {
+  margin-top:25px;
+}
+
+/* Styling for social links within footer */
 
 .fa {
   padding: 15px;

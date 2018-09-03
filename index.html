@@ -50,9 +50,54 @@
   </nav>
 
   <!-- Header -->
-  <header class="bg-white text-white">
+  <header>
     <div class="container text-center">
+
+    <!-- Header Call to Action -->
+      <div class="row" id="call-to-action">
+        <div class="col-xs-12">
+          <section class="text-center">
+            <h1 id="call-to-action-text"><strong>1960's Rock Band with 50 years experience performing live around the world.</h1></strong>
+              <hr class='block-divider block-divider--blue'>
+              <h4 id="signup">Sign up today to start receiving news on The Beach Boys.</h4>
+                <p><button class="btn btn-lg btn-primary" data-toggle='modal' data-target='#signUpModal'>Sign Up!</button></p>
+          </section>
+        </div>
+      </div>
+      </div>
+
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h5 class="modal-title" id="myModalLabel">Sign Up For The Beach Boys News!</h5>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+                <p class="help-block">We'll never share your email address with anyone</p>
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="passwordRepeat">Repeat Password</label>
+                <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password">
+              </div>
+              <button type="submit" class="btn btn-success">Sign Up!</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
+
   </header>
 
   <!-- About -->
@@ -113,12 +158,9 @@
           <h2>Contact Us</h2>
           <br>
           <form>
-            <p>
-              <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required />
-              <p>
-                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required />
-                <p>
-                  <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="For bookings please include - Event Type, Location, Date and Time" required></textarea>
+            <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required />
+            <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required />
+            <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="For bookings please include - Event Type, Location, Date and Time" required></textarea>
           </form>
           <br>
           <div class="text-center">
@@ -142,9 +184,7 @@
 
     </div>
 
-    <p></p>
-
-    <div class="container">
+    <div class="container" id="footer">
       <p class="m-0 text-center text-white">Copyright &copy; The Beach Boys 2018</p>
     </div>
   </footer>

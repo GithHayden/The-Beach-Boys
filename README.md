@@ -30,4 +30,5 @@ thus, lost all staged commits.
 
 Bugs
 
-Boostrap CSS not overrding = Social links CSS, Footer Spacing
+Boostrap CSS not overrding = Social links CSS, Footer Spacing - spent significant time, many hours ove a number of days, trying to fix this via code as it was not rendering in brower via Run. Figured out that the chrome cache needed to be cleared for CSS updates to apply. And used id / # to overwride as a higher class.
+Call to action text not standing out - adjusted photo coloring and uploaded a new photo.
