@@ -20,7 +20,7 @@
 4. UAT: Final web design inspected via `Cloud 9 IDE`, `Run`. Responsive web design tested via `Chrome Dev Tools`, `Toggle Device Toolbar`.
 5. Git and GitHub: Used for version control and to deploy backup up project.
 ```
-NOTE: At end of project, re-pushed to a new GitHub repo to update project naming conventions,
+NOTE: At end of project and as part of the learning curve, re-pushed to a new GitHub repo to update project naming conventions,
 thus, lost all staged commits.
 ```
 6. Deployed via GitHub Pages: [1960s Rock Band Website](https://githhayden.github.io/The-Beach-Boys/).
@@ -30,5 +30,4 @@ thus, lost all staged commits.
 
 Bugs
 
-Social links CSS
-Footer Spacing
+Boostrap CSS not overrding = Social links CSS, Footer Spacing
