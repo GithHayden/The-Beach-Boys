@@ -24,3 +24,11 @@ NOTE: At end of project, re-pushed to a new GitHub repo to update project naming
 thus, lost all staged commits.
 ```
 6. Deployed via GitHub Pages: [1960s Rock Band Website](https://githhayden.github.io/The-Beach-Boys/).
+7. 
+
+
+
+Bugs
+
+Social links CSS
+Footer Spacing

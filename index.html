@@ -39,7 +39,7 @@
             <a class="nav-link js-scroll-trigger" href="#videos">Videos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#music">Music</a>
+            <a class="nav-link js-scroll-trigger" href="#audio">Audio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -63,7 +63,7 @@
           <h2>About</h2>
           <p class="lead">The Beach Boys is an American rock band formed in Hawthorne, California, in 1961. They have released 29 studio albums, eight live albums, 55 compilation albums, and 71 singles. The current members are Brian Wilson, Mike Love, Al Jardine and
             Bruce Johnston.</p>
-          <p class="lead">With over 50 years experience performing live around the world, the band bring amazing energy and vibrance to any event. <b>For bookings please go the contact section.</b></p>
+          <p class="lead">With over 50 years experience performing live around the world, the band bring amazing energy and vibrance to any event. <b><a href="#contact">For bookings please go the contact section.</a></b></p>
         </div>
       </div>
     </div>
@@ -86,12 +86,12 @@
     </div>
   </section>
 
-  <!-- Music -->
-  <section id="music">
+  <!-- Audio Tracks -->
+  <section id="audio">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Music</h2>
+          <h2>Audio</h2>
 
           <div class="embed-responsive embed-responsive-16by9">
             <video class="embed-responsive-item" controls poster="assets/goodVibrations.jpg"> 
@@ -118,7 +118,7 @@
               <p>
                 <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required />
                 <p>
-                  <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="For bookings please include - Event Type, Location, Date & Time" required></textarea>
+                  <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="For bookings please include - Event Type, Location, Date and Time" required></textarea>
           </form>
           <br>
           <div class="text-center">
@@ -129,9 +129,13 @@
       </div>
     </div>
 
-    <div class="container text-center">
+  </section>
 
-      <!-- Social Links CSS to override Bootstrap template -->
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+
+    <div class="container text-center">
+      <!-- Social Links CSS to override Bootstrap template, won't work when saved within main.CSS file -->
       <style>
         .fa {
           padding: 15px;
@@ -170,15 +174,12 @@
 
     </div>
 
-  </section>
+    <p></p>
 
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; The Beach Boys 2018</p>
     </div>
   </footer>
-
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
