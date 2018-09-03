@@ -30,6 +30,12 @@ header {
   margin-bottom:25px;
 }
 
+.btn--styling {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
 
 /* Block dividers */
 
