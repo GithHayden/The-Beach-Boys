@@ -2,7 +2,7 @@
 
 header {
   height: 90vh;
-  background: url('../assets/beachBoys.jpg') no-repeat center center fixed;
+  background: url('../assets/images/beachBoys.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -40,7 +40,9 @@ header {
 /* Block dividers */
 
 .block-divider {
-    width: 75px;
+    margin-top:25px;
+    margin-bottom:25px;
+    width: 100px;
     height: 5px;
     border: 0;
     background-color: #444;
@@ -109,3 +111,9 @@ section {
   background: #bb0000;
   color: white;
 }
+
+
+
+
+
+
