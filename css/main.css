@@ -67,6 +67,10 @@ section {
   padding: 125px 0px 125px 0px;
 }
 
+h2 {
+  margin-bottom:20px;
+}
+
 /* Styling for space between form input fields */
 
 #fullname {
