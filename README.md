@@ -34,3 +34,4 @@ Boostrap CSS not overrding = Social links CSS, Footer Spacing - spent significan
 Call to action text not standing out - adjusted photo coloring and uploaded a new photo.
 Bootstrap grid not working in videos and audio
 Used video tag where should have used audio tag
+Videos showing black line/controls nudged above thumbnail - sizing off for grid, updated from 350 to 340.
