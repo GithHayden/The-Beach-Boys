@@ -53,15 +53,14 @@ header {
 }
 
 
+#audio-spacing {
+  margin-bottom:150px;
+}
+
 @media (min-width: 992px) {
   header {
     padding: 156px 0 100px;
   }
-}
-
-
-.video-spacing {
-  margin-right:25px;
 }
 
 section {
