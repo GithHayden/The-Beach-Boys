@@ -1,3 +1,13 @@
+/* Styling applicable to each section */
+
+section {
+  padding: 125px 0px 125px 0px;
+}
+
+h2 {
+  margin-bottom:20px;
+}
+
 /* Header photo styling */
 
 header {
@@ -13,8 +23,7 @@ header {
   position: relative;
 }
 
-
-/* Header call to action syling */
+/* Header call to action styling */
 
 #call-to-action {
   color:#e6e6e6;
@@ -36,9 +45,6 @@ header {
     width: 160px;
 }
 
-
-/* Block dividers */
-
 .block-divider {
     margin-top:25px;
     margin-bottom:25px;
@@ -52,26 +58,7 @@ header {
     background-color: #0066ff;
 }
 
-
-#audio-spacing {
-  margin-bottom:150px;
-}
-
-@media (min-width: 992px) {
-  header {
-    padding: 156px 0 100px;
-  }
-}
-
-section {
-  padding: 125px 0px 125px 0px;
-}
-
-h2 {
-  margin-bottom:20px;
-}
-
-/* Styling for space between form input fields */
+/* Styling for space between form input fields, used CSS ID to ensure Bootstrap CSS was over-written */
 
 #fullname {
   margin-bottom:15px;
@@ -118,9 +105,4 @@ h2 {
   background: #bb0000;
   color: white;
 }
-
-
-
-
-
 
