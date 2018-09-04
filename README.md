@@ -158,3 +158,4 @@ Bootstrap grid not working in videos and audio
 Used video tag where should have used audio tag
 Videos showing black line/controls nudged above thumbnail - sizing off for grid, updated from 350 to 340.
 call out not responsive
+Modal text centre aligned, updated <div> tags, throwing out alignment.
