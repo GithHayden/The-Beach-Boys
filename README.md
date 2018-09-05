@@ -1,29 +1,22 @@
 # The Beach Boys
 
-This website is a static (front-end only) application for a 1960's rock band, using The Beach Boys as an example. The primary target audience are the bands current and potential fans. Fans can sign up for news, read an overview on the band, watch videos, listen to audio tracks, download audio tracks, follow the band on their social media pages and contact the band to request a booking.
+This website is a front-end application for a band. The primary target audience are current fans, potential fans and customers. All users can sign up for news, read an overview on the band, watch videos, listen to audio tracks, download audio tracks, contact the band to request a booking and follow the band on social media.
 
 ## UX
  
-The following is an overview of the UX process for this project, focusing on who thie website is for, connecting the bands business needs to the users needs.
-
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
+The following is an overview of the UX process for this project, focusing on who this website is for, connecting the bands needs to the users needs via user stories.
 
 #### UX Process
-- Reviewed The Beach Boys videos, music and website to understand this genre, fans, potential fans and customers.
-- Reviewed the Code Institute learnings, Bootstrap documentation and online templates to extract design ideas.
-- Sketched the wireframe on paper, with a navbar for each section delivering a clear design to connect the bands needs to the users needs.
-- 
-#### User Stories
-- As a fan, potential fan or customer, I want to subscribe to The Beach Boys news, to receive updates on the bands members, their concerts and new music.
-- As a potential fan or customer, I want to read a summary about The Beach Boys, to understand their background to date.
-- As a fan, potential fan or customer, I want to watch some of The Beach Boys videos, for entertainment and to see their performances should I choose to book them for an event or go to see them perform live.
-- As a fan, potential fan or customer, I want to listen to some of The Beach Boys audio tracks, for entertaiment and to listen to their music should I choose to book them for an event or go to see them perform live.
-- As a fan, potential fan or customer I want to be able to contact the band, to submit feedback or to book the band for an event.
-- As a fan, potential fan or customer I want to be able to follow the band on social media, to be a part of their journey and to interact with them.
+1. **The Beach Boys** - Reviewed The Beach Boys videos, music and website to understand this genre, fans, potential fans and customers.
+2. **Layout** - Reviewed the Code Institute learnings, Bootstrap documentation and online templates to extract design ideas.
+3. **User Stories** - Understood user requirements and how the website will achieve this.
+    1. **Subscribe to News** - As a fan, potential fan or customer, I want to subscribe to The Beach Boys news, to receive updates on the bands members, their concerts and new music.
+    2. **About** - As a potential fan or customer, I want to read a summary about The Beach Boys, to understand their background to date.
+    3. **Videos** - As a fan, potential fan or customer, I want to watch some of The Beach Boys videos, for entertainment and to see their performances should I choose to book them for an event or go to see them perform live.
+    4. **Audio** - As a fan, potential fan or customer, I want to listen to some of The Beach Boys audio tracks, for entertaiment and to listen to their music should I choose to book them for an event or go to see them perform live.
+    5. **Contact** - As a fan, potential fan or customer I want to be able to contact the band, to submit feedback or to book the band for an event.
+    6. **Social Media** - As a fan, potential fan or customer I want to be able to follow the band on social media, to be a part of their journey and to interact with them.
+4. **Wireframe** - Sketched the wireframe on paper, with a navbar for each section delivering a clear design to connect the bands needs to the users needs.
 
 
 ## Features
