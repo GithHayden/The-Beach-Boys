@@ -1,57 +1,68 @@
 # The Beach Boys
 
-This website is a front-end application for a band. The primary target audience are current fans, potential fans and customers. All users can sign up for news, read an overview on the band, watch videos, listen to audio tracks, download audio tracks, contact the band to request a booking and follow the band on social media.
+This website is a front-end application for The Beach Boys, 1960's rock band. The primary target audience are current fans, potential fans and customers. Users can sign up for news, read an overview on the band, watch videos, listen to audio tracks, download audio tracks, contact the band to request a booking and follow the band on social media.
 
 ## UX
  
-The following is an overview of the UX process for this project, focusing on who this website is for, connecting the bands needs to the users needs via user stories.
+The following is an overview of the UX process for this project.
 
 #### UX Process
 1. **The Beach Boys** - Reviewed The Beach Boys videos, music and website to understand this genre, fans, potential fans and customers.
 2. **Layout** - Reviewed the Code Institute learnings, Bootstrap documentation and online templates to extract design ideas.
 3. **User Stories** - Understood user requirements and how the website will achieve this.
     1. **Subscribe to News** - As a fan, potential fan or customer, I want to subscribe to The Beach Boys news, to receive updates on the bands members, their concerts and new music.
-    2. **About** - As a potential fan or customer, I want to read a summary about The Beach Boys, to understand their background to date.
-    3. **Videos** - As a fan, potential fan or customer, I want to watch some of The Beach Boys videos, for entertainment and to see their performances should I choose to book them for an event or go to see them perform live.
-    4. **Audio** - As a fan, potential fan or customer, I want to listen to some of The Beach Boys audio tracks, for entertaiment and to listen to their music should I choose to book them for an event or go to see them perform live.
+    2. **About** - As a fan, potential fan or customer, I want to read a summary about The Beach Boys, to understand their background to date.
+    3. **Videos** - As a fan, potential fan or customer, I want to watch some of The Beach Boys videos, for entertainment, to download videos and to see their performances should I choose to book them for an event or go to see them perform live.
+    4. **Audio** - As a fan, potential fan or customer, I want to listen to some of The Beach Boys audio tracks, for entertaiment, to download audio tracks and to listen to their music should I choose to book them for an event or go to see them perform live.
     5. **Contact** - As a fan, potential fan or customer I want to be able to contact the band, to submit feedback or to book the band for an event.
-    6. **Social Media** - As a fan, potential fan or customer I want to be able to follow the band on social media, to be a part of their journey and to interact with them.
-4. **Wireframe** - Sketched the wireframe on paper, with a navbar for each section delivering a clear design to connect the bands needs to the users needs.
-
+    6. **Social Media Icons** - As a fan, potential fan or customer I want to be able to follow the band on social media, to be a part of their journey and interact with them.
+4. **Wireframe** - Sketched the wireframe on paper, to include a section for each user story, delivering a clear design to connect the bands needs to the users needs.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The following is an overview of each feature within this project.
  
 ### Existing Features
 
 For some/all of your features, you may choose to reference the specific project files that implemented them, although this is entirely optional.
 
-- Feature 1 - allows users X to achieve Y, by having them fill out Z.
-
-- **Feature 1: User Authentication.** The project should include an authentication mechanism, allowing a user to register and log in. There should be a good reason as to why the users would need to log in e.g. a user would have to register to persist their shopping cart between sessions, otherwise it will be lost.
-- **Feature 2: Stripe Payments (Django App).** At least one of your Django apps should contain some e-commerce functionaity usins Stripe. This may be a shopping cart checkout, subscription-based payments or single payments etc.
-- **Feature 3: User Requests.** Include at least one form with validation that will allow users to create and edit models in the backend, in addition to the authentication mechanism.
-- **Feature 4: Responsive UI.** The UI should be responsive, use either media queries or a resonsive framework such as Bootstrap to make sure the site looks well on all commonly-used devices.
-- **Feature 5: Free Bugs and Services.** Free services for previously developed applications or answered issues.
-- **Feature 6: Paid Bugs and Services.** Develop new applications, resolve bugs on applications, not previously developed by Website Solutions.
-- **Feature 7: User Ticket Request.** Ticket on an issues tracker, describing a users request. Allows users to create tickets, comment on tickets and show the status of the ticket, i.e. Open, In Progress, Complete. Issues will come in 2 varities. Free and Paid.
-- **Feature 8: Upvoting.** To prioritise work, useers will be able to upvote bugs, signifying 'I have this too'
-, and upvote feature requests, signifying 'I want to have this too'. Whilst upvoting is free, to upvote a feature request, users would need to pay some money, with a minimum amount of your choice, to pay for your time working on it. In turn, you promise always to spend at least 50% of your time working on developing the highest-paid feature.
-- **Feature 9: Graphs.** To offer transparency to your users, you decide to create a page that contains some grpahs showing how many bugs or features are tended to on a daily, weekly and monthly basis, as well as the highest-voted bugs and features.
-- **Feature 10: Contact.** For users to directly contact developers/company.
-- **Feature 11: Blog.**
-- **Feature 12: Social Links.**
-- **Feature 13: Documentation.** To allow new developers that join the company to get up and running as quickly as possible.
-- 
-- **Feature 15: Video.**
-- **Feature 16: Search.**
-- **Feature 17: Subscribe to news.**
+1. **The Beach Boys** - Landing page navbar menu item. When selected brings users to view a photo of the band, view a call to action header. It allows provides users to select a button to sign up to news, by having them fill out the modal that appears once the user selects 'Sign Up!'
+2. **About** - About navbar menu item. When seleted brings users to view the about section, which contains a summary about The Beach Boys, to understand their background to date.
+3. **Videos** - Video navbar item. When selected brings users to view the video section which showcases videos, for entertainment, to download videos and to see their performances should I choose to book them for an event or go to see them perform live.
+4. **Audio** - Audio navbar item. When selected brings users to listen to auio tracks of the band which showcases audio tracks, for entertaiment, to download and to listen to their music should I choose to book them for an event or go to see them perform live.
+5. **Contact** - Contact navbar item. When seleted brings the users to the contact section, to be able to contact the band, to submit feedback or to book the band for an event.
+6. **Social Media Icons** - Icons for Facebook, Twitter and Youtube, when selected brings users to each social media page. Allows users to be a part of the bands journey and interat with them.
 
 ### Features to Implement
-- Another feature idea
+1. **Merchendaise**
+2. **Book live concerts**
+3. **Live concert schedule**
+3. **Videos** - Upgrade to video slider functionality for more streamlined presentation or figure out other ways to enahnce UX/UI.
+4. **Audio Tracks** - Upgrade to include thumbnail type photo for each track or figure out other ways to enhance UX/UI.
 
 ## Technologies Used
+
+The following section describes all technologies and tools used to construct this project.
+
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+
+- [Cloud 9 IDE](https://aws.amazon.com/cloud9/)
+    - The project used **Cloud 9**, online integrated development environment, to construct the code end to end.
+- [Bootstrap Template]()
+    - 
+- [Font Awesome]()
+    - 
+- [HTML]()
+    - 
+- [CSS]()
+    - 
+- [Chrome Dev Tools]()
+    - 
+- [GitHub]()
+    - 
+- [Gulp File]()
+    - 
+
 
 
 
@@ -76,22 +87,7 @@ Deploy the final version of your code to a hosting platform such as GitHub Pages
 
 
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-- [Django]()
-    - This project uses **Django** and is composed of multiple apps, an app for each reusable component in the project.
-- [Database]()
-    - The project will need to connect to a database e.g. sqlite or Postgres, using Django's ORM.
-- [JavaScript]()
-    - The front end should contain some JavaScript to enhance the user experience.
-- [Python/Django packages]()
-    - Whenever relevant, the backend should integrate with third-party Python/Django packages, such as Django Rest Frawmwork, etc. Strive to choose the best tool for each purpose.
-- [Travis CI]()
-    - Make sure to test your project extensively. In particular, make sure that no unhandled exceptions are visible to users, under any circumstance. Use autoamted Django tests wherever possible.
-- [Jasmine Tests]()
-    - For your JavaScript code, consider using Jasmine tests.
 
 ## Testing
 
@@ -148,21 +144,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 
-
-
-
-
-### 1960s Rock Band Website
-1. Landing Page: Photo of the band.
-2. About: Brief description of the band.
-3. Videos: Section to showcase videos and download tracks.
-4. Music: Section to showcase music and download tracks.
-5. Contact: Section for general contact and event bookings. Social links to follow the band.
-
 ### Functionalities and Technologies
 1. Bootstrap: Nav scrolling bar [template](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav) including responsive web design.
 2. Additional Bootstrap: `Font Awesome`link added into `index.html` `<head>` section for social icons.
-3. Cloud 9 IDE: Used to build the project end to end.
+
 4. HTML & CSS: Code added to build each section of project.
 5. Chrome Dev Tools: Used for ongoing inspection of elements and to perform final UAT.
 6. GitHub: Used for version control and backup of project.
@@ -192,8 +177,7 @@ Videos showing black line/controls nudged above thumbnail - sizing off for grid,
 call out not responsive
 Modal text centre aligned, updated <div> tags, throwing out alignment.
 
-Outstanding
-Describe how gulp file works.
+
 Be specific about the Bootstrap template used - what I use from it & what code I wrote.
 Povide full credit in commentary/on files and in README.
 Check for copyright notices on top of the CSS/allfiles and include.
