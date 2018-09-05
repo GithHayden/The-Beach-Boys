@@ -1,13 +1,29 @@
 # The Beach Boys
 
-Mythware is an agile project management web application. Providing features from brainstorming tools i.e. the unicorn-inator, to project planning and completion. In addition, Mythware provides an issues tracker, where users can track and submit new issues to have bugs resolved for free or submit tickets requesting additional features, for a cost.
+This website is a static (front-end only) application for a 1960's rock band, using The Beach Boys as an example. The primary target audience are the bands current and potential fans. Fans can sign up for news, read an overview on the band, watch videos, listen to audio tracks, download audio tracks, follow the band on their social media pages and contact the band to request a booking.
 
 ## UX
  
+The following is an overview of the UX process for this project, focusing on who thie website is for, connecting the bands business needs to the users needs.
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
+
+
+#### UX Process
+- Reviewed The Beach Boys videos, music and website to understand this genre, fans, potential fans and customers.
+- Reviewed the Code Institute learnings, Bootstrap documentation and online templates to extract design ideas.
+- Sketched the wireframe on paper, with a navbar for each section delivering a clear design to connect the bands needs to the users needs.
+- 
+#### User Stories
+- As a fan, potential fan or customer, I want to subscribe to The Beach Boys news, to receive updates on the bands members, their concerts and new music.
+- As a potential fan or customer, I want to read a summary about The Beach Boys, to understand their background to date.
+- As a fan, potential fan or customer, I want to watch some of The Beach Boys videos, for entertainment and to see their performances should I choose to book them for an event or go to see them perform live.
+- As a fan, potential fan or customer, I want to listen to some of The Beach Boys audio tracks, for entertaiment and to listen to their music should I choose to book them for an event or go to see them perform live.
+- As a fan, potential fan or customer I want to be able to contact the band, to submit feedback or to book the band for an event.
+- As a fan, potential fan or customer I want to be able to follow the band on social media, to be a part of their journey and to interact with them.
 
 
 ## Features
@@ -43,6 +59,29 @@ For some/all of your features, you may choose to reference the specific project 
 - Another feature idea
 
 ## Technologies Used
+
+
+
+Use the following guidelines when developing your project:
+
+Create a website of around 4-5 pages, or (if using a single scrolling page) these should be separate page areas.
+Incorporate main navigation and grid layout (you might want to use Flexbox or Bootstrap to accomplish this).
+Whenever possible, strive to use semantic HTML5 elements to structure your HTML code better.
+Make sure your site is as responsive as possible. You can test this by checking the website on different screen sizes and browsers.
+We advise that you write down user stories and create wireframes/mockups before embarking on full-blown development.
+The site can also make use of CSS frameworks such as Bootstrap, just make sure you maintain a clear separation between the library code and your code.
+You should conduct and document tests to ensure that all of your website’s functionality works well.
+Write a README.md file for your project that explains what the project does and the need that it fulfills. It should also describe the functionality of the project, as well as the technologies used. Detail how the project was deployed and tested and if some of the work was based on other code, explain what was kept and how it was changed to fit your need. A project submitted without a README.md file will FAIL.
+Use Git & GitHub for version control. Each new piece of functionality should be in a separate commit.
+Deploy the final version of your code to a hosting platform such as GitHub Pages.
+
+
+
+
+
+
+
+
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
@@ -159,3 +198,15 @@ Used video tag where should have used audio tag
 Videos showing black line/controls nudged above thumbnail - sizing off for grid, updated from 350 to 340.
 call out not responsive
 Modal text centre aligned, updated <div> tags, throwing out alignment.
+
+Outstanding
+Describe how gulp file works.
+Be specific about the Bootstrap template used - what I use from it & what code I wrote.
+Povide full credit in commentary/on files and in README.
+Check for copyright notices on top of the CSS/allfiles and include.
+Add anything useful from other README files.
+End to End build - check all code/commentary clean, test all features, test responsive, ensure streamlined.
+Check code - run through validators and update where relevant.
+Spellcheck.
+Push final version to GitHub.
+
