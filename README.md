@@ -44,76 +44,88 @@ For some/all of your features, you may choose to reference the specific project 
 
 The following section describes all technologies and tools used to construct this project.
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 - [Cloud 9 IDE](https://aws.amazon.com/cloud9/)
     - The project used **Cloud 9**, online integrated development environment, to construct the code end to end.
-- [Bootstrap Template]()
-    - 
-- [Font Awesome]()
-    - 
-- [HTML]()
-    - 
-- [CSS]()
-    - 
-- [Chrome Dev Tools]()
-    - 
-- [GitHub]()
-    - 
-- [Gulp File]()
-    - 
+- [Bootstrap Template](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav)
+    - This project uses **Bootstrap Nav scrolling bar template**, a blank template with main navigation and a grid layout. This blank template was used as a starting block and tailored for this specific website.
+- [Font Awesome](https://fontawesome.com/)
+    - This project uses **Font Awesome**, a library of icons, to add the social media icons in the footer.
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+    - This project uses **HTML**, the standard markup language, to build the layout for the index.html page. HTML code specific to this project was added in the index.html file.
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    - This project uses **CSS**, a style sheet language, to add styling to the index.html page. The **main.css** file was added to the Bootstrap template to add custom styling.
+- [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools/)
+    - This project uses **Chrome Dev Tools**, a set of web developer tools, to continously test and inspect that the web pages are rendering correnctly in the browser.
+- [GitHub](https://github.com/)
+    - This project uses **GitHub**, a web hosting service, for version control and final project deployment.
 
-
-
-
-Use the following guidelines when developing your project:
-
-Create a website of around 4-5 pages, or (if using a single scrolling page) these should be separate page areas.
-Incorporate main navigation and grid layout (you might want to use Flexbox or Bootstrap to accomplish this).
-Whenever possible, strive to use semantic HTML5 elements to structure your HTML code better.
-Make sure your site is as responsive as possible. You can test this by checking the website on different screen sizes and browsers.
-We advise that you write down user stories and create wireframes/mockups before embarking on full-blown development.
-The site can also make use of CSS frameworks such as Bootstrap, just make sure you maintain a clear separation between the library code and your code.
-You should conduct and document tests to ensure that all of your website’s functionality works well.
-Write a README.md file for your project that explains what the project does and the need that it fulfills. It should also describe the functionality of the project, as well as the technologies used. Detail how the project was deployed and tested and if some of the work was based on other code, explain what was kept and how it was changed to fit your need. A project submitted without a README.md file will FAIL.
-Use Git & GitHub for version control. Each new piece of functionality should be in a separate commit.
-Deploy the final version of your code to a hosting platform such as GitHub Pages.
-
-
-
-
-
-
-
-
-
+> **All other technologies** within this project were included with the Bootstrap template.
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The following is an overview of testing to ensure all functionality works as intended in this project.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+1. **Landing section and Subscribe to News**:
+    1. Select the 'Contact' menu on the navbar, and verify that the user is moved to the contact section and away from the landing page.
+    2. Select 'The Beach Boys' menu on the navbar, and verify that the user is moved to the landing page.
+    3. Select the 'Sign Up' button, and verify that a modal appears.
+    4. Complete all user details within the modal, and verify that all fields accept relevant text.
+    5. Select 'Sign Up' to submit the users details, and verify that the modal closes.
+    
+        1. **Bug** - Càll to action text not standing out for clean reading.
+        2. **Issue** - Background photo too bright and text size too small.
+        3. **Fix** - Adjusted photo coloring by reducing brightness and uploaded new photo. INcreased text size via custom CSS, i.e. main.css file.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+2. **About Section**:
+    1. Select the 'About' menu on the navbar, and verify that the user is moved to the about section.
+    2. Select the hyperlink, 'To request a booking, please go to the contact section.', and verify that the user is moved to the contact section.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+3. **Videos Section**:
+    1. Select the 'Videos' menu on the navbar, and verify that the user is moved to the videos section.
+    2. Select play, pause, time slider, volume icon and slider, full screen and download on each video. Verify that all functionalities work as intended.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+        1. **Bug** - Custom CSS i.e. main.css code, not overriding Bootstrap CSS.
+        2. **Issue** - Website not rendering in browser until cache cleared.
+        3. **Fix** - Spent significant time, hours over a number of days researching this. Decided to try to clear the cache in chrome and this fixed the issue. Also used id classes in some areas of the custom CSS to override Bootstrap CSS.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+        1. **Bug** - Bootstrap template grid not suitable for video layout.
+        2. **Issue** - Bootstrap tempalte grid suitable for one column of data.
+        3. **Fix** - Updated html <div> tags around videos to a bootstrap grid class of 'col-sm-6', to layout two videos side by side on each div row.     
+        
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+4. **Audio Section**:
+    1. Select the 'Audio' menu on the navbar, and verify that the user is moved to the audio section.
+    2. Select play, pause, time slider, volume icon and slider, and download on each audio track. Verify that all functionalities work as intended.
+    
+        1. **Bug** - Bootstrap template grid not suitable for audio layout.
+        2. **Issue** - Bootstrap tempalte grid suitable for one column of data.
+        3. **Fix** - Updated html <div> tags around videos to a bootstrap grid class of 'col-sm-6', to layout two audio tracks side by side on each div row.
+        
+        1. **Bug** - Each audio track inclues a video thumbnail above the controls.
+        2. **Issue** - Used a html <video> tag, but should be a <audio> tag.
+        3. **Fix** - Updated all <video> tags, that should be <audio> tags.
+
+5. **Contact Section**:
+    1. Select the 'Contact' menu on the navbar, and verify that the user is moved to the contact section.
+    2. Complete all user details within the form, and verify that all input fields accet the text as intended.
+
+6. **Social Media Icons**:
+    1. Scroll to the footer section.
+    2. Select the Facebook, Twitter and YouTube icons, and verify that all icon hoover styling is as intended. Verify that all icons open each social media page, in a new browser window.
+
+7. **Responsive Testing**:
+    1. In Chrome, right click on the site and select 'inspect', to open the Chrome Dev tools.
+    2. Select the toggle device icon, to open the responsive testing windown.
+    3. Test how the website is rendering on each device size from Galaxy S5 to iPad Pro.
 
 
-**Manual testing**, ongoing via `Cloud 9`, `Run`. Once each functionality code developed, checked operated as expected in the web browser by walking through each functionality. The following bugs were encountered:
+Bugs
 
-1. **Feature x**
-    1. **Bug/Expected Output** - . **Issue** - . **Fix** - Scanned code. .
+Videos showing black line/controls nudged above thumbnail - sizing off for grid, updated from 350 to 340.
+call out not responsive
+Modal text centre aligned, updated <div> tags, throwing out alignment.
+
 
 
 ## Deployment
@@ -140,18 +152,6 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 - I received inspiration for this project from X
 
-
-
-
-
-### Functionalities and Technologies
-1. Bootstrap: Nav scrolling bar [template](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav) including responsive web design.
-2. Additional Bootstrap: `Font Awesome`link added into `index.html` `<head>` section for social icons.
-
-4. HTML & CSS: Code added to build each section of project.
-5. Chrome Dev Tools: Used for ongoing inspection of elements and to perform final UAT.
-6. GitHub: Used for version control and backup of project.
-
 ### Development Process and Deployment
 1. Bootstrap Template: Saved into `Cloud 9 IDE` workspace.
 2. Cloud 9 IDE: Updated in line with wireframe for this project. Assets folder created, and files saved into the folder. Additional list item added to navbar. List items renamed to align with this project.
@@ -163,27 +163,13 @@ NOTE: At end of project and as part of the learning curve, re-pushed to a new Gi
 thus, lost all staged commits.
 ```
 6. Deployed via GitHub Pages: [1960s Rock Band Website](https://githhayden.github.io/The-Beach-Boys/).
-7. 
 
 
 
-Bugs
-
-Boostrap CSS not overrding = Social links CSS, Footer Spacing - spent significant time, many hours ove a number of days, trying to fix this via code as it was not rendering in brower via Run. Figured out that the chrome cache needed to be cleared for CSS updates to apply. And used id / # to overwride as a higher class.
-Call to action text not standing out - adjusted photo coloring and uploaded a new photo.
-Bootstrap grid not working in videos and audio
-Used video tag where should have used audio tag
-Videos showing black line/controls nudged above thumbnail - sizing off for grid, updated from 350 to 340.
-call out not responsive
-Modal text centre aligned, updated <div> tags, throwing out alignment.
-
-
-Be specific about the Bootstrap template used - what I use from it & what code I wrote.
+Be specific about the Bootstrap template used - what I use from it & what code I wrote. Figure out how to maintain clear seperation.
 Povide full credit in commentary/on files and in README.
 Check for copyright notices on top of the CSS/allfiles and include.
-Add anything useful from other README files.
 End to End build - check all code/commentary clean, test all features, test responsive, ensure streamlined.
-Check code - run through validators and update where relevant.
 Spellcheck.
 Push final version to GitHub.
 
