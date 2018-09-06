@@ -94,12 +94,7 @@ The following is an overview of testing to ensure all functionality works as int
 
         - **Bug 2** - Bootstrap template grid not suitable for video layout.
             - **Issue** - Bootstrap tempalte grid suitable for one column of data.
-            - **Fix** - Updated html <div> tags around videos to a bootstrap grid class of 'col-sm-6', to layout two videos side by side on each div row.     
-        
-        - **Bug 3** - Video controls nudged up on top of thumbnail.
-            - **Issue** - Video sizing not fitting into Bootstrap grid layout.
-            - **Fix** - Updated video widths from 350 to 340.   
-        
+            - **Fix** - Updated html div tags around videos to a bootstrap grid class of 'col-sm-6', to layout two videos side by side on each div row.
 
 4. **Audio Section**:
     1. Select the 'Audio' menu on the navbar, and verify that the user is moved to the audio section.
@@ -127,8 +122,8 @@ The following is an overview of testing to ensure all functionality works as int
     3. Test how the website is rendering on each device size from Galaxy S5 to iPad Pro.
     
         - **Bug** - Website not fitting into all devices.
-            - **Issue** - OPEN BUG.
-            - **Fix** - OPEN BUG.
+            - **Issue** - CSS for div requires styling adjustment.
+            - **Fix** - Updated custom CSS within main.css to adjust diz and font sizing.
 
 ## Deployment
 The followng section describes the process to deploy this project GitHub Pages.

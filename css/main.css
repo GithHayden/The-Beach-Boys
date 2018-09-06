@@ -5,10 +5,10 @@ section {
 }
 
 h2 {
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
-/* Header photo styling */
+/* Header background photo styling */
 
 header {
   height: 90vh;
@@ -23,56 +23,52 @@ header {
   position: relative;
 }
 
-
 /* Header call to action styling */
 
-#call-to-action {
-  color:#e6e6e6;
-  margin-left:65px;
-  margin-right:65px;
-}
-
-#call-to-action-text {
-  font-size:60px;
+.call-to-action {
+  color: #e6e6e6;
+  margin-left: 75px;
+  margin-right: 40px;
+  margin-top: 50px;
 }
 
 #signup {
-  margin-bottom:25px;
+  margin-bottom: 25px;
 }
 
 .btn--styling {
-    font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
+  font-weight: bold;
+  border-radius: 23px;
+  width: 160px;
 }
 
 .block-divider {
-    margin-top:25px;
-    margin-bottom:25px;
-    width: 100px;
-    height: 5px;
-    border: 0;
-    background-color: #444;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100px;
+  height: 5px;
+  border: 0;
+  background-color: #444;
 }
 
 .block-divider--blue {
-    background-color: #0066ff;
+  background-color: #0066ff;
 }
 
 /* Styling for space between form input fields, used CSS ID to ensure Bootstrap CSS was over-written */
 
 #fullname {
-  margin-bottom:15px;
+  margin-bottom: 15px;
 }
 
 #emailaddress {
-  margin-bottom:15px;
+  margin-bottom: 15px;
 }
 
 /* Styling for footer spacing between social links and copyright text */
 
 #footer {
-  margin-top:25px;
+  margin-top: 25px;
 }
 
 /* Styling for social links within footer */
