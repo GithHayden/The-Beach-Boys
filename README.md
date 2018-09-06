@@ -46,7 +46,7 @@ The following section describes all technologies and tools used to construct thi
 - [Cloud 9 IDE](https://aws.amazon.com/cloud9/)
     - The project used **Cloud 9**, online integrated development environment, to construct the code end to end.
 - [Bootstrap Template](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav)
-    - This project uses **Bootstrap Nav scrolling bar template**, a blank template with main navigation and a grid layout. This blank template was used as a starting block and tailored for this specific website.
+    - This project uses **Bootstrap Nav scrolling bar template**, a blank template with main navigation and a grid layout. This blank template was used as a starting block and tailored/bult upon for this specific website. Index.html and Main.CSS predominatly all developers code. All other code included with Bootstrap template.
 - [Font Awesome](https://fontawesome.com/)
     - This project uses **Font Awesome**, a library of icons, to add the social media icons in the footer.
 - [HTML](https://en.wikipedia.org/wiki/HTML)
@@ -136,32 +136,23 @@ The followng section describes the process to deploy this project GitHub Pages.
 1. Create new repository within GitHub.
 2. Within GitHub, under <> Code heading, copy 'git remote add origin...' command, paste into IDE terminal and execute.
 3. Within GitHub, under <> Code heading, copy 'git push -u origin master' command, paste into IDE terminal and execute.
-4. Project now pushed to GitHub.
+4. The project now pushed to GitHub.
 5. Within GitHub, under Settings heading, go to 'GitHub Pages' section.
-6. Select Master branch and save. The project is now published to GitHub Pages and a url will appear.
-7. Deployed via GitHub Pages: [The Beach Boys](https://githhayden.github.io/The-Beach-Boys/).
+6. Select Master branch and save.
+7. The project is now published to GitHub Pages and can be viewed in the browser.
+8. GitHub Pages URL: [The Beach Boys](https://githhayden.github.io/The-Beach-Boys/).
 
-**NOTE: As part of the learning curve, re-pushed to a new GitHub repo during the project and lost staged commits up to that point.**
+> **Note:** During the project re-pushed to a new GitHub repo  and lost staged commits up to that point.
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for the About section was copied from [Wikipedia](https://en.wikipedia.org/wiki/The_Beach_Boys).
 
 ### Media
-- The photos used in this site were obtained from ...
-- The videos
-- The audio tracks
+- The photos used in this site was copied from [WWMT.com](https://wwmt.com/news/local/the-beach-boys-to-headline-tulip-time-2018-tickets-on-sale-nov-9).
+- The videos and audio tracks in this site were copied from [YouTube](https://www.youtube.com/) and converted to MP4 and MP3 files.
 
 ### Acknowledgements
 
-- I received inspiration for this project from The Beach Boys videos, music and website.
-
-Be specific about the Bootstrap template used - what I use from it & what code I wrote. Figure out how to maintain clear seperation.
-Povide full credit in commentary/on files and in README.
-Check for copyright notices on top of the CSS/allfiles and include.
-End to End build - check all code/commentary clean, test all features, test responsive, ensure streamlined.
-Spellcheck.
-
-Push final version to GitHub.
-
+- I received inspiration for this project from The Beach Boys videos, music and website, from Bootstrap template designs and from Code Institue education.
