@@ -76,6 +76,10 @@ The following is an overview of testing to ensure all functionality works as int
         1. **Bug** - Càll to action text not standing out for clean reading.
         2. **Issue** - Background photo too bright and text size too small.
         3. **Fix** - Adjusted photo coloring by reducing brightness and uploaded new photo. INcreased text size via custom CSS, i.e. main.css file.
+        
+        1. **Bug** - Modal input field text alignemnt skewed.
+        2. **Issue** - Additional <div> tags throwing out alignment.
+        3. **Fix** - Updated <div> tags to ensure aligment correct.
 
 2. **About Section**:
     1. Select the 'About' menu on the navbar, and verify that the user is moved to the about section.
@@ -92,6 +96,10 @@ The following is an overview of testing to ensure all functionality works as int
         1. **Bug** - Bootstrap template grid not suitable for video layout.
         2. **Issue** - Bootstrap tempalte grid suitable for one column of data.
         3. **Fix** - Updated html <div> tags around videos to a bootstrap grid class of 'col-sm-6', to layout two videos side by side on each div row.     
+        
+        1. **Bug** - Video controls nudged up on top of thumbnail.
+        2. **Issue** - Video sizing not fitting into Bootstrap grid layout.
+        3. **Fix** - Updated video widths from 350 to 340.   
         
 
 4. **Audio Section**:
@@ -118,14 +126,10 @@ The following is an overview of testing to ensure all functionality works as int
     1. In Chrome, right click on the site and select 'inspect', to open the Chrome Dev tools.
     2. Select the toggle device icon, to open the responsive testing windown.
     3. Test how the website is rendering on each device size from Galaxy S5 to iPad Pro.
-
-
-Bugs
-
-Videos showing black line/controls nudged above thumbnail - sizing off for grid, updated from 350 to 340.
-call out not responsive
-Modal text centre aligned, updated <div> tags, throwing out alignment.
-
+    
+        1. **Bug** - Càll to action text not responsive on smaller devices.
+        2. **Issue** - 
+        3. **Fix** - 
 
 
 ## Deployment
