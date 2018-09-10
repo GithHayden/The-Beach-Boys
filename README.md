@@ -36,8 +36,8 @@ The following section describes all the front-end features in this project.
 1. **Merchandise** - Add a feature to sell the bands merchandise.
 2. **Book live concerts** - Add a feature to allow fans to purchase tickets via this website.
 3. **Live concert schedule** - Add a feature to show a summary of the bands concert schedule.
-3. **Videos** - Upgrade the video feature to a horizontal, automatic, video slider to enhance UX/UI.
-4. **Audio Tracks** - Upgrade the video feature to a horizontal, automatic, video slider with track photo image, to enhance UX/UI.
+4. **Videos** - Upgrade the video feature to a horizontal, automatic, video slider to enhance UX/UI.
+5. **Audio Tracks** - Upgrade the video feature to a horizontal, automatic, video slider with track photo image, to enhance UX/UI.
 
 ## Technologies Used
 
