@@ -130,7 +130,7 @@ The following section describes the process to deploy this project to GitHub Pag
 5. Within GitHub, under the `Settings` heading, go to the `GitHub Pages` section.
 6. Select Master branch and save.
 7. The project is now published to GitHub Pages and can be viewed in the browser.
-8. GitHub Pages URL: [The Beach Boys](https://githhayden.github.io/The-Beach-Boys/).
+8. GitHub Pages URL: [The Beach Boys](https://githhayden.github.io/the-beach-boys/).
 
 > **Note:** During development, a push to a new GitHub repo resulted in earlier git commits lost.
 
